@@ -1,0 +1,4 @@
+$fontSizeDefault: 25;
+@function px-rem($px){
+  @return #{$px / $fontSizeDefault}rem;
+}
